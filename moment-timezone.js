@@ -19,8 +19,8 @@
 	"use strict";
 	
 	if (moment.version === undefined) {
- +		moment = moment.default;
- +	}
+ 		moment = moment.default;
+ 	}
 
 	// Do not load moment-timezone a second time.
 	// if (moment.tz !== undefined) {
